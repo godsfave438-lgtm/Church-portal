@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #020617;
+  --panel: rgba(15, 23, 42, 0.84);
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --accent: #34d399;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply min-h-screen antialiased;
+  background: radial-gradient(circle at top left, rgba(52, 211, 153, 0.18), transparent 28%), linear-gradient(135deg, #020617 0%, #0f172a 45%, #111827 100%);
+  color: var(--text);
+}
+
+::selection {
+  background: rgba(52, 211, 153, 0.35);
+  color: #f8fafc;
+}

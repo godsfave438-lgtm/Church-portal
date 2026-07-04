@@ -1,0 +1,15 @@
+{
+  "name": "st-michael-church",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "npm run dev:frontend",
+    "dev:frontend": "npm --prefix frontend run dev --",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend:local": "npm --prefix frontend run dev -- --hostname 127.0.0.1 --port 3000",
+    "build:frontend": "npm --prefix frontend run build",
+    "start:frontend": "npm --prefix frontend run start",
+    "start:backend": "npm --prefix backend run start"
+  }
+}
