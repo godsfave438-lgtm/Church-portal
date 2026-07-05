@@ -1,7 +1,6 @@
 {
-  "/(public)/events/page": "app/(public)/events/page.js",
-  "/(public)/announcements/page": "app/(public)/announcements/page.js",
-  "/login/page": "app/login/page.js",
+  "/admin/announcements/page": "app/admin/announcements/page.js",
   "/admin/dashboard/page": "app/admin/dashboard/page.js",
-  "/(public)/register/page": "app/(public)/register/page.js"
+  "/priest/dashboard/page": "app/priest/dashboard/page.js",
+  "/login/page": "app/login/page.js"
 }
